@@ -1,0 +1,47 @@
+{
+    "name": "dzherelo-v2",
+    "description": "v2 website experience of DZHERELO",
+    "version": "0.0.1",
+    "keywords": [
+        "ghost-theme",
+        "art",
+        "video",
+        "artist"
+    ],
+    "engines": {
+        "ghost": ">=4.0.0",
+        "ghost-api": "v4"
+    },
+    "author": {
+        "name": "kosh",
+        "email": "hlikosh@gmail.com"
+    },
+    "config": {
+        "post_per_page": 3,
+        "image_sizes":{
+            "s":{
+                "width": 300
+            },
+            "m":{
+                "width": 600
+            },
+            "l":{
+                "width": 1000
+            }
+        }
+    },
+    "dependencies": {
+        "tailwindcss": "^3.0.23",
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.6"
+    },
+    "scripts":{
+        "built-css": "tailwindcss -i ./assets/css/screen.css -o ./assets/built/screen.css",
+        "postcss-built": ""
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.0.23",
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.6"
+    }
+}
