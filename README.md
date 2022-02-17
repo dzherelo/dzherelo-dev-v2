@@ -3,18 +3,18 @@ Website is written with 2 languages:
 - Ukrainian,
 - English;
 
-### Home
+## Home
 Includes:
  - Current exhibition ← Visit today,
  - Latest announces,
  - Map,
  - Support & subscribe;
 
-### Exhibitions
+## Exhibitions
 Exhibitions and cycles of exhibitions inside, public program and more;
 
-### Artists
+## Artists
 Names of artists with the links to the pages of an artists;
 
-### Publications
+## Publications
 The list of publications made on the resource;
